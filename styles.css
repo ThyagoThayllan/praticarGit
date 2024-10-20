@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+}
+
+header {
+    display: flex;
+    background-color: #199;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    gap: 0.25rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+}
+
+main h1 {
+    margin-bottom: 1rem;
+    color: #199;
+}
