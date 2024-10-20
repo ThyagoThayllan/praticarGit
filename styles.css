@@ -14,20 +14,27 @@ header {
     display: flex;
     background-color: #199;
     color: #fff;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
 }
 
-nav {
+header input {
+    width: 300px;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+}
+
+nav ul {
     display: flex;
-    gap: 0.25rem;
-}
-
-nav ul li {
+    gap: 0.5rem;
     list-style: none;
 }
 
 main {
     display: flex;
     flex-flow: column;
+    padding: 1rem;
 }
 
 main h1 {
